@@ -15,7 +15,7 @@ try:
             print("please enter a positive length.")
             #generate and display the password generated_password=generate_password(password_length)
         print("Generated PassWord:",generate_password(password_length))
-        ch = int(input("Enter a value:"))
+        ch = int(input("Do you want to Continue?if yes : press Any Number else: press 0"))
 except ValueError:
     print("invalid input.please enter a valid positive integer for the password length.")
         
